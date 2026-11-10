@@ -1,0 +1,13 @@
+{
+  "name": "travel-planner",
+  "version": "1.0.0",
+  "description": "Plan trips with a day-by-day itinerary and a running budget. Trips are kept in the browser.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

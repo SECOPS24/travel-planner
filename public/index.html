@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Planner</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Your trips">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Travel Planner</span>
+      </div>
+      <button type="button" class="btn btn-primary btn-block" id="new-trip">New trip</button>
+      <nav id="trip-list" class="trip-list"></nav>
+      <p class="sidebar-note">Trips are saved in this browser only.</p>
+    </aside>
+    <main id="main" class="main"></main>
+  </div>
+  <noscript>Travel Planner needs JavaScript to run.</noscript>
+  <script src="/app.js"></script>
+</body>
+</html>
